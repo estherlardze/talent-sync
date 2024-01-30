@@ -5,3 +5,8 @@
 body{
     font-family: 'poppins', sans-serif;
 }
+ 
+  .scroll-container::-webkit-scrollbar{
+   display: none;
+  }
+  

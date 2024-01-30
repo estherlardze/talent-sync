@@ -11,7 +11,7 @@ const Navbar = () => {
  }
 
   return (
-    <nav>
+    <nav className='w-[94%] mx-[3%] sm:w-[92%] sm:mx-[4%]'>
       <div className='flex justify-between items-center my-4 bg-[#F2F4F7] py-3 rounded-full px-4 border border-gray-200 '>
          <div className='flex gap-2 h-[15px] cursor-pointer'>
           <img src={group} alt="logo" />
@@ -20,19 +20,19 @@ const Navbar = () => {
 
          <ul className='lg:flex gap-4 items-center hidden'>
            <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer' >        
-              <p>Products</p> 
+              <a href="#products">Products</a> 
               <MdKeyboardArrowDown/>
             </li>
             <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>
-              <p>Solutions</p>
+              <a href='#solutions'>Solutions</a>
               <MdKeyboardArrowDown/>
             </li>
             <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>             
-              <p>Resources</p>
+              <a href='#resources'>Resources</a>
               <MdKeyboardArrowDown/>
             </li>
             <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>         
-              <p>Pricing</p>
+              <a href="#pricing">Pricing</a>
               <MdKeyboardArrowDown/>
             </li>
          </ul>
@@ -52,24 +52,24 @@ const Navbar = () => {
       </div>
 
       {menu && (
-          <div className='fixed left-0 top-0 lg:hidden flex-col bg-white h-[100vh] w-[80%] py-4 pl-4'>
+          <div className='fixed left-0 top-0 lg:hidden flex-col bg-[#F2F4F7] h-[100vh] w-[60%] py-4 pl-4 z-50'>
              <ul className='flex gap-4 flex-col'>
-                <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer' >        
-                  <p>Products</p> 
-                  <MdKeyboardArrowDown/>
-                </li>
-                <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>
-                  <p>Solutions</p>
-                  <MdKeyboardArrowDown/>
-                </li>
-                <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>             
-                  <p>Resources</p>
-                  <MdKeyboardArrowDown/>
-                </li>
-                <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>         
-                  <p>Pricing</p>
-                  <MdKeyboardArrowDown/>
-                </li>
+             <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer' >        
+              <a href="#products">Products</a> 
+              <MdKeyboardArrowDown/>
+            </li>
+            <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>
+              <a href='#solutions'>Solutions</a>
+              <MdKeyboardArrowDown/>
+            </li>
+            <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>             
+              <a href='#resources'>Resources</a>
+              <MdKeyboardArrowDown/>
+            </li>
+            <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>         
+              <a href="#pricing">Pricing</a>
+              <MdKeyboardArrowDown/>
+            </li>
             </ul>
 
             <div className='flex gap-4 flex-col mt-4'>
