@@ -19,6 +19,6 @@ export {default  as screen} from './images/screen.png';
 export {default  as shopify} from './images/shopify.png';
 export {default  as ai} from './images/ai.png';
 export { default as avatargroup} from './images/avatar-group.png'
-export {default  as stars} from './images/stars.svg';
+export {default  as stars} from './images/Stars.svg';
 export {default as arrow} from './images/arrow.png';
 export {default as content} from './images/Contents.png'
