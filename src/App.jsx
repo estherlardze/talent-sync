@@ -19,7 +19,7 @@ const App = () => {
   }, []);
 
   return(
-   <div className=''>
+   <div className=' overflow-hidden'>
     <Navbar/>
     <div className='w-[94%] mx-[3%] sm:w-[90%] sm:mx-[5%] 2xl:w-[60%] 2xl:mx-[20%]'>
       <Header/>

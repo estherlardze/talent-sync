@@ -11,7 +11,7 @@ const iconStyle = 'bg-white border border-[#B2DDFF] rounded-full p-1 text-blue-6
 
 const Header = () => {
   return (
-    <section className='grid gap-8 grid-cols-5 my-[80px]' id="products">
+    <section className='grid gap-8 grid-cols-5 my-[80px] overflow-hidden' id="products">
       <div className='col-span-5 lg:col-span-3' data-aos='fade-right'>
        <h1 className='text-4xl font-bold'>Uniting the world,<br /> one video call at a time</h1>
         <p className='text-gray-600 my-4 text-lg'>

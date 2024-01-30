@@ -52,22 +52,22 @@ const Navbar = () => {
       </div>
 
       {menu && (
-          <div className='fixed left-0 top-0 lg:hidden flex-col bg-[#F2F4F7] h-[100vh] w-[60%] py-4 pl-4 z-50'>
-             <ul className='flex gap-4 flex-col'>
+          <div className='fixed left-0 top-0 bottom-0 lg:hidden flex-col bg-[#F2F4F7] h-screen w-[60%] py-4 pl-4 z-50'>
+             <ul className='flex gap-8 flex-col text-lg'>
              <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer' >        
-              <a href="#products">Products</a> 
+              <a href="#">Products</a> 
               <MdKeyboardArrowDown/>
             </li>
             <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>
-              <a href='#solutions'>Solutions</a>
+              <a href='#'>Solutions</a>
               <MdKeyboardArrowDown/>
             </li>
             <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>             
-              <a href='#resources'>Resources</a>
+              <a href='#'>Resources</a>
               <MdKeyboardArrowDown/>
             </li>
             <li className='font-semibold text-gray-600 flex gap-1 items-center cursor-pointer'>         
-              <a href="#pricing">Pricing</a>
+              <a href="#">Pricing</a>
               <MdKeyboardArrowDown/>
             </li>
             </ul>
